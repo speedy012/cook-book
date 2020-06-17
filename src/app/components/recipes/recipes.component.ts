@@ -14,7 +14,7 @@ export class RecipesComponent implements OnInit {
   ngOnInit() {
     this.recipeTitle = '';
     this.recipes = [
-      { title: 'eggs', rows: 2, cols: 2, img: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fediblesarasota.ediblecommunities.com%2Frecipes%2Fsunnyside-eggs&psig=AOvVaw1qtM4oX6wCln5kEK9T-AmG&ust=1592357120698000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCph9mWheoCFQAAAAAdAAAAABAD'},
+      { title: 'eggs', rows: 2, cols: 2, url: 'https://images.unsplash.com/photo-1521513919009-be90ad555598?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60'},
        { rows: 1, cols: 1},
        { rows: 2, cols: 1},
        { rows: 1, cols: 1},
