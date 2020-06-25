@@ -8,17 +8,8 @@
 
 } */
 
-/* .recipe-container{
-
-  padding-left: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  border: 2px solid blue;
-} */
-
-
-*image works*
-
-
-***round two***
+.recipe-container{
+  top: 5rem;
+  width: 95%;
+  margin: 0 auto;
+}

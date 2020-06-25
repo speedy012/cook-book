@@ -1,18 +1,12 @@
 
+<button mat-raised-button>Basic</button>
 
-
-
-
-
-<mat-grid-list cols="4" rowHeight="150px" gutterSize= "3px">
+<mat-grid-list cols="4" rowHeight="150px" gutterSize= "3px" class="recipe-container">
   <mat-grid-tile
       *ngFor="let recipe of recipes"
       [colspan]="recipe.cols"
       [rowspan]="recipe.rows"
       style="background-color: lightblue;">
-
-
-
     <img src='{{recipe.url}}' style="object-fit: cover; height: 100%; width: 100%">
   </mat-grid-tile>
 </mat-grid-list>
